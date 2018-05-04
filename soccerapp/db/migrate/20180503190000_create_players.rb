@@ -4,6 +4,7 @@ class CreatePlayers < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :nation
       t.string :position
+      t.integer :club_id
 
       t.timestamps
     end
